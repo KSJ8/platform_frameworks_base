@@ -1045,6 +1045,15 @@
         android:description="@string/permdesc_recordAudio"
         android:protectionLevel="dangerous|instant"/>
 
+    <!-- Allows an application to record ultrasound audio.
+         <p>Protection level: dangerous
+    -->
+    <permission android:name="android.permission.RECORD_ULTRASOUND_AUDIO"
+        android:permissionGroup="android.permission-group.MICROPHONE"
+        android:label="@string/permlab_recordUltraSoundAudio"
+        android:description="@string/permdesc_recordUltraSoundAudio"
+        android:protectionLevel="dangerous"/>
+
     <!-- ====================================================================== -->
     <!-- Permissions for accessing the UCE Service                              -->
     <!-- ====================================================================== -->
